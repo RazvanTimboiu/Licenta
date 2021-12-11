@@ -1,0 +1,69 @@
+.inputItem {
+    border-bottom: 3px solid black;
+    height: 45px;
+    width: 100%;
+    display: inline-flex;
+    color: black;
+    --background: transparent;
+}
+
+.inputItemError {
+    border-bottom: 3px solid red;
+    height: 45px;
+    width: 100%;
+    display: inline-flex;
+    color: var(--docubb-color-turqoise);
+    --background: transparent;
+}
+
+.inputItem.item-has-focus {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.inputItem.item-has-focus > .inputIcon {
+    color: black;
+}
+
+.inputText {
+    font-family: "Avenir-Medium";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.inputIconError {
+    margin: 0;
+    font-size: 30px;
+    color: red;
+}
+
+.dateTime {
+    font-family: "Avenir-Medium";
+    font-size: 20px;
+    margin-left: 10px;
+    color: var(--docubb-color-turqoise);
+    opacity: 0.5;
+}
+
+.inputLabell {
+    font-family: "Avenir-Medium";
+    font-size: 20px;
+    margin-left: 20px;
+    color: var(--docubb-color-dark-blue);
+}
+
+@media (max-width: 320px) {
+    .inputText,
+    .dateTime,
+    ::-webkit-input-placeholder {
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1070px) {
+    .inputText,
+    .dateTime,
+    ::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+}

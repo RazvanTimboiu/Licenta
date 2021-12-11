@@ -1,0 +1,23 @@
+.light {
+    width: 100%;
+    --background: var(--blurry-light);
+    border-radius: 4px;
+    font-size: 100%;
+    font-family: Avenir-Next;
+    font-weight: var(--docubb-font-weight-button);
+    color: var(--blurry-dark);
+    letter-spacing: 0;
+
+    border: 2px solid var(--blurry-dark);
+}
+
+.dark {
+    width: 100%;
+    --background: var(--blurry-dark);
+    border-radius: 4px;
+    font-size: 100%;
+    font-family: Avenir-Next;
+    font-weight: var(--docubb-font-weight-button);
+    color: var(--blurry-light);
+    letter-spacing: 0;
+}

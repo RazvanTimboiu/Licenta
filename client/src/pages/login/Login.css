@@ -1,0 +1,18 @@
+.loginPage {
+    --background: transparent linear-gradient(180deg, cyan 0%, yellow 100%) 0%
+        0% no-repeat padding-box;
+}
+
+.ionGridLogin {
+    width: 100%;
+    height: 100%;
+}
+
+.ionButtonUPadding {
+    padding-top: 5vh;
+}
+
+.logo {
+    width: 100%;
+    height: 15vh;
+}
